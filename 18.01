@@ -1,0 +1,7 @@
+git init gpl1
+cd gpl1
+echo "Contenu du fichier" > local1
+git add local1
+git commit -m "Ajout du fichier local1"
+git remote add origin https://github.com/clementschn/gpl1.git
+git push -u origin master
